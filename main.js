@@ -40,15 +40,15 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Loading screen fade out
-window.addEventListener('particle-canvas', () => {
-    const loadingScreen = document.getElementById('loading-screen');
+// window.addEventListener('particle-canvas', () => {
+    // const loadingScreen = document.getElementById('loading-screen');
     // setTimeout(() => {
     //     loadingScreen.style.opacity = '0';
-    setTimeout(() => {
-        loadingScreen.style.display = 'none';
-    }, 1000);
+    // setTimeout(() => {
+    //     loadingScreen.style.display = 'none';
     // }, 1000);
-});
+    // }, 1000);
+// });
 
 // Particle network background
 function initParticleNetwork() {
